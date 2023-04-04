@@ -1,0 +1,9 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX family: <http://www.semanticweb.org/alexandrecogordan/ontologies/2023/1/untitled-ontology-26#>
+
+SELECT ?persons
+WHERE {
+?persons rdf:type family:Person.
+}
